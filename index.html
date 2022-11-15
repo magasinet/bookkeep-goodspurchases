@@ -12,6 +12,52 @@
 
     <h1>Bokför Varuinköp</h1>
 
+    <h2>Metod</h2>
+
+    <div>
+        <input type="radio" id="faktura" name="metod" value=""
+               checked>
+        <label for="faktura">Fakturametoden</label>
+      </div>
+      <div>
+        <input type="radio" id="kontant" name="metod" value="">
+        <label for="kontant">Kontantmetoden</label>
+      </div>
+    </div>
+
+
+    <h2>Totalsumma</h2>
+
+    <div>
+        <input type="number" id="summa" value="">
+        <label for="summa">Totalsumma</label>
+    </div>
+
+
+    <h2>Momssats</h2>
+
+    <input type="radio" id="momssats25" name="momssats" value=""
+               checked>
+        <label for="momssats25">25%</label>
+      </div>
+      <div>
+        <input type="radio" id="momssats12" name="momssats" value="">
+        <label for="momssats12">12%</label>
+      </div>
+      <div>
+        <input type="radio" id="momssats6" name="momssats" value="">
+        <label for="momssats6">6%</label>
+      </div>
+      <div>
+        <input type="radio" id="momsfri" name="momssats" value="">
+        <label for="momsfri">Momsfri</label>
+      </div>
+
+
+
+
+
+
     <!-- 
         Kontantmetoden eller Fakturametoden?
             Om faktura => 2 verifikationer
